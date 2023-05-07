@@ -1,0 +1,32 @@
+.input-and-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100vw;
+  padding: 40px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 20px;
+
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 5px;
+}
+.input-element {
+  background-color: transparent;
+  outline: none;
+  border: 0px none transparent;
+  width: 250px;
+  height: 25px;
+  color: white;
+}
+.icon-container {
+  font-size: 20px;
+}
